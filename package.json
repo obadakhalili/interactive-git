@@ -5,6 +5,7 @@
     "husky": "^8.0.3"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "check": "node ./scripts/check.js"
   }
 }
